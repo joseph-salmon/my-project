@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&display=swap');
+
+html {
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
