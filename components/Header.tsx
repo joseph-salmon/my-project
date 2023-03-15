@@ -1,7 +1,7 @@
 import { asset, Head } from "$fresh/runtime.ts";
 
 interface Header {
-  name: String;
+  name: string;
 }
 
 export default function Home(data: Header) {
@@ -33,7 +33,6 @@ export default function Home(data: Header) {
       </link>
       <meta name="mobile-web-app-capable" content="yes"></meta>
       <meta name="theme-color" content="#ffffff"></meta>
-      <meta name="application-name" content="Kate Gray Memorial Trust"></meta>
       <link
         rel="apple-touch-icon"
         sizes="57x57"
@@ -115,7 +114,6 @@ export default function Home(data: Header) {
       <link rel="stylesheet" href={asset("style/index.css")}></link>
       <link rel="stylesheet" href={asset("style/custom.css")}></link>
       <title>{data.name}</title>
-      <meta name="generator" content="elm-pages v1.3.0"></meta>
     </Head>
   );
 }
